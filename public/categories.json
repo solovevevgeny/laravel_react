@@ -1,0 +1,84 @@
+[
+{
+    "id":1,
+    "parent_id": 0,
+    "title": "Седельные тягачи"
+}, 
+
+{
+    "id":2,
+    "parent_id": 0,
+    "title": "Грузовики"
+}, 
+
+{
+    "id":3,
+    "parent_id": 0,
+    "title": "Спецтехника"
+}, 
+
+{
+    "id":4,
+    "parent_id": 0,
+    "title": "Морская техника"
+}, 
+
+{
+    "id":5,
+    "parent_id": 1,
+    "title": "Freighliner"
+}, 
+
+{
+    "id":6,
+    "parent_id": 1,
+    "title": "International"
+}, 
+
+{
+    "id":5,
+    "parent_id": 1,
+    "title": "Kenworth"
+},
+
+{
+    "id":6,
+    "parent_id": 1,
+    "title": "Peterbilt"
+},
+
+{
+    "id":7,
+    "parent_id": 2,
+    "title": "Isuzu"
+},
+
+{
+    "id":8,
+    "parent_id": 2,
+    "title": "Toyota"
+},
+
+{
+    "id":9,
+    "parent_id": 3,
+    "title": "JCB"
+},
+
+{
+    "id":10,
+    "parent_id": 3,
+    "title": "CAT"
+},
+{
+    "id":11,
+    "parent_id": 1,
+    "title": "MAN"
+},
+{
+    "id":12,
+    "parent_id": 1,
+    "title": "Scania"
+}
+
+]
