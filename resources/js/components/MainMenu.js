@@ -26,26 +26,16 @@ class MainMenu extends Component {
 			.then(data => this.setState({ mainMenu: data }));
 
 	}
-
-	
-	
-
 	render(){
 
-       let mainMenuArray = this.state.mainMenu;
-
-        
-	
+        let mainMenuArray = this.state.mainMenu;
 		return (
+			<Menu theme="dark" mode="horizontal" defaultSelectedKeys={['0']} style={{ lineHeight: '64px' }}>
+	        	        {mainMenuArray.map (function(menuItem,index){
+				        return <Menu.Item key={index}>{menuItem.title}</Menu.Item>
 
-            <div>
-            
-                {mainMenuArray.map (function(menuItem,index){
-                    return <Button key={index} type="primary">{menuItem.title}</Button>
-                })}
-                
-            
-            </div>		
+		                })}
+		        </Menu>
         );
 
 

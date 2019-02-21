@@ -46,7 +46,7 @@ class MainCategories extends Component {
 							{
 								categoriesArray.map(function(ChItem, index) {
 									if (ChItem.parent_id === item.id) {
-										let url = '/tech' + ChItem.id + ".htm";
+										let url = '/tech/' + ChItem.id + "/";
 										return <li key={index}><a href={url} >{ChItem.title}</a></li>
 									}
 									

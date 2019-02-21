@@ -13,9 +13,11 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('categories', function(){
-	return \App\Category::all();
-});
+Route::get('categories', 'CateroriesController@index');
+
+
+Route::get('engines', 'EnginesController@index');
+
 
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
